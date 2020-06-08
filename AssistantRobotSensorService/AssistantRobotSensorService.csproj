@@ -32,14 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net">
-      <HintPath>..\..\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\基础动态链接库\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="LogAgent">
-      <HintPath>..\..\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\LogAgent.dll</HintPath>
+    <Reference Include="LogAgent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\基础动态链接库\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\LogAgent.dll</HintPath>
     </Reference>
-    <Reference Include="SensorAgent">
-      <HintPath>..\..\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\SensorAgent.dll</HintPath>
+    <Reference Include="SensorAgent, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\基础动态链接库\AssistantRobot_Dlls\AssistantRobotDlls\AssistantRobotDlls\bin\Release\SensorAgent.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
